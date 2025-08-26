@@ -1,0 +1,9 @@
+# Conf.txt
+states: q0,q1
+alphabet: 0,1
+start: q0
+accept: q1
+transition: q0,0->q0
+transition: q0,1->q1
+transition: q1,0->q0
+transition: q1,1->q1
